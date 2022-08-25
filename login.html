@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> LOGIN </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+   <div class="mother">
+      
+
+       <div class="forms">
+           <form action="#">
+               <div class="t">
+                   <h1>LOGIN </h1>
+               </div>
+               <div class="text">
+                   
+                   <input type="text" placeholder="Username">
+                   
+                </div>
+                <div class="pass">
+                    <input type="password" placeholder="Password">
+                </div>   
+                <div class="btn">
+                    <button>LOGIN</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 
+        <div id="resp"  class="respnav">
+            <button onclick="CloseNav()">x</button>
+            <a href="#">Home</a>
+            <a href="#">Halls</a>
+            <a href="#"> Campaighns</a>
+            <a href="#">Contacts</a>
+        </div>
+     
+
+
+
+        <script>
+         
+        function openNav() {
+                document.getElementById("resp").style.display="flex";
+                document.getElementById("resp").style.flexDirection="column";
+
+            }
+            function CloseNav(){
+                document.getElementById("resp").style.display="none";
+            }
+        </script>
+    </body>
+</html>

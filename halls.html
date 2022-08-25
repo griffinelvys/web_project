@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> ISYOUMOA </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="hall.css">
+    </head>
+    <body>
+   <div class="mother">
+       <div class="nav"> 
+            <div class="button"> <button onclick="openNav()">open</button></div>
+            <div class="links">
+                <a href="index (1).html">Home</a>
+                <a href="halls.html">Halls</a>
+                <a href="campaigns.html"> Campaigns</a>
+                <a href="contacts.html">Contacts</a>
+            </div>
+            <div class="logo">ISYOUMOA</div>
+      </div> 
+      <div class="About">
+        <H1> OUR HALLS</H1>
+        <p>
+
+            
+Find the perfect Hall space !
+
+Looking for a hall space for an upcoming event?
+Halls are versatile spaces suitable for corporate events, private functions and family parties. Old banquet halls,
+ theaters, wedding venues, hotels, barns, factories… They’re all available to book . Whether you’re 
+ planning a product launch, a birthday party, 
+a wedding, or anything in between, get ready to wow your guests with some truly spectacular venues.
+
+           
+           
+        </p>
+    </div>
+    <div class="gallery">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+      
+
+    </div>
+    <div class="gallery2">
+
+        <div class="div4"></div>
+        <div class="div5"></div>
+        
+    </div>
+    <div class="forms">
+        <div class="radio">
+            <p>Available Halls</p>
+            <label for=""> Hall1  <input type="radio"checked></label>
+            <label for=""> Hall2  <input type="radio" ></label>
+            <label for=""> Hall3  <input type="radio"></label>
+            <label for=""> Hall4  <input type="radio" checked></label>
+            <label for=""> Hall5  <input type="radio"></label>
+        </div>
+        <div class="booking">
+                <div class="f1">
+                    <label for="Fname">FIRST NAME</label>
+                    <input  name="Fname" type="text">
+                </div>
+    
+                <div class="f2">
+                    <label for="Sname">SECOND NAME</label>
+                    <input name="Sname" type="text">
+                </div>
+                <div class="f3">
+                    <label for="email"> From</label>
+                    <input name="email" type="date">
+                </div>
+                <div class="f4">
+                    <label for="email"> To</label>
+                    <input name="email" type="date">
+                </div>
+                <div class="f5">
+                    <label for="email"> Tell</label>
+                    <input name="email" type="text">
+                </div>
+                <div class="f6">
+                    <button>Send</button>
+                </div>
+
+                
+            </div>
+    </div>
+
+   </div>
+        <div id="resp"  class="respnav">
+            <button onclick="CloseNav()">x</button>
+            <a href="index (1).html">Home</a>
+            <a href="halls.html">Halls</a>
+            <a href="campaigns.html"> Campaighns</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+     
+
+
+
+        <script>
+         
+        function openNav() {
+                document.getElementById("resp").style.display="flex";
+                document.getElementById("resp").style.flexDirection="column";
+
+            }
+            function CloseNav(){
+                document.getElementById("resp").style.display="none";
+            }
+        </script>
+    </body>
+</html>

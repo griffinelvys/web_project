@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> ISYOUMOA </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+   <div class="mother">
+       <div class="nav"> 
+            <div class="button"> <button onclick="openNav()">open</button></div>
+            <div class="links">
+                <a href="index (1).html">Home</a>
+                <a href="halls.html">Halls</a>
+                <a href="campaigns.html"> Campaighns</a>
+                <a href="contacts.html">Contacts</a>
+            </div>
+            <div class="logo">ISYOUMOA</div>
+      </div> 
+      <div class="About">
+        <H1> ABOUT US</H1>
+        <p>
+            ISYOUMOA is a nonprofit that supports needy people by connecting them to donors and companies.
+              we've helped trusted, community-led organizations from all over different regions (and hundreds of
+              places in between) access the tools, training, and support they need to make our world a better place.
+
+
+        </p>
+    </div>
+   </div>
+        <div id="resp"  class="respnav">
+            <button onclick="CloseNav()">x</button>
+            <a href="index (1).html">Home</a>
+            <a href="halls.html">Halls</a>
+            <a href="campaigns.html"> Campaighns</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+     
+
+
+
+        <script>
+         
+        function openNav() {
+                document.getElementById("resp").style.display="flex";
+                document.getElementById("resp").style.flexDirection="column";
+
+            }
+            function CloseNav(){
+                document.getElementById("resp").style.display="none";
+            }
+        </script>
+    </body>
+</html>
